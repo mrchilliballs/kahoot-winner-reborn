@@ -7,9 +7,3 @@ dist
 kdb.json
 latest.txt
 /src/out
-app
-src
-public
-locales
-kahoot.js
-reformat.js
