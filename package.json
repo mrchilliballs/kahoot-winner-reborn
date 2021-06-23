@@ -5,7 +5,7 @@
   "main": "kahoot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron .",
+    "start": "node src_2/code/bin/www",
     "generate": "cd src; node generate.js",
     "reformat": "npm uninstall electron electron-builder && node reformat.js && npm run generate"
   },
@@ -17,21 +17,23 @@
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
-    "dotenv": "^8.2.0",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^8.6.0",
     "emoji-regex": "^9.2.1",
     "express": "^4.17.1",
     "got": "^11.8.1",
+    "helmet": "^4.6.0",
     "ip": "^1.1.5",
     "kahoot-search": "^1.0.4",
     "kahoot.js-updated": "^2.3.3",
+    "mongoose": "^5.12.14",
     "semver": "^7.3.4",
     "user-agents": "^1.0.561",
     "ws": "^7.4.2",
     "yauzl": "^2.10.0"
   },
   "devDependencies": {
-    "electron": "^11.2.1",
-    "electron-builder": "^22.9.1",
     "eslint": "^7.18.0",
     "minify": "^7.0.0"
   },

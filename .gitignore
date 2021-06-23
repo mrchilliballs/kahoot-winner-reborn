@@ -7,3 +7,4 @@ dist
 kdb.json
 latest.txt
 /src/out
+/src_2/code/.env
